@@ -1,0 +1,175 @@
+[ {
+  "name" : "FrmPerson",
+  "class" : "javax.swing.JFrame",
+  "x" : 0,
+  "y" : 0,
+  "width" : 581,
+  "height" : 362
+}, {
+  "name" : "JRootPane",
+  "class" : "javax.swing.JRootPane",
+  "x" : 0,
+  "y" : 36,
+  "width" : 581,
+  "height" : 326
+}, {
+  "name" : "JPanel",
+  "class" : "javax.swing.JPanel"
+}, {
+  "name" : "JLayeredPane",
+  "class" : "javax.swing.JLayeredPane",
+  "x" : 0,
+  "y" : 36,
+  "width" : 581,
+  "height" : 326
+}, {
+  "name" : "JPanel",
+  "class" : "javax.swing.JPanel",
+  "x" : 0,
+  "y" : 36,
+  "width" : 581,
+  "height" : 326
+}, {
+  "name" : "JPanel",
+  "class" : "javax.swing.JPanel",
+  "x" : 12,
+  "y" : 107,
+  "width" : 557,
+  "height" : 71
+}, {
+  "name" : "JRadioButton",
+  "class" : "javax.swing.JRadioButton",
+  "x" : 30,
+  "y" : 124,
+  "width" : 51,
+  "height" : 15
+}, {
+  "name" : "JRadioButton",
+  "class" : "javax.swing.JRadioButton",
+  "x" : 30,
+  "y" : 145,
+  "width" : 68,
+  "height" : 15
+}, {
+  "name" : "JLabel",
+  "class" : "javax.swing.JLabel",
+  "x" : 12,
+  "y" : 84,
+  "width" : 68,
+  "height" : 15
+}, {
+  "name" : "JLabel",
+  "class" : "javax.swing.JLabel",
+  "x" : 12,
+  "y" : 59,
+  "width" : 45,
+  "height" : 15
+}, {
+  "name" : "JTextField",
+  "class" : "javax.swing.JTextField",
+  "x" : 92,
+  "y" : 57,
+  "width" : 477,
+  "height" : 19
+}, {
+  "name" : "JTextField",
+  "class" : "javax.swing.JTextField",
+  "x" : 92,
+  "y" : 82,
+  "width" : 477,
+  "height" : 19
+}, {
+  "name" : "JLabel",
+  "class" : "javax.swing.JLabel",
+  "x" : 12,
+  "y" : 189,
+  "width" : 61,
+  "height" : 15
+}, {
+  "name" : "JComboBox",
+  "class" : "javax.swing.JComboBox",
+  "x" : 85,
+  "y" : 184,
+  "width" : 484,
+  "height" : 24
+}, {
+  "name" : "MetalComboBoxButton",
+  "class" : "javax.swing.plaf.metal.MetalComboBoxButton",
+  "x" : 549,
+  "y" : 184,
+  "width" : 20,
+  "height" : 24
+}, {
+  "name" : "CellRendererPane",
+  "class" : "javax.swing.CellRendererPane"
+}, {
+  "name" : "JLabel",
+  "class" : "javax.swing.JLabel",
+  "x" : 12,
+  "y" : 36,
+  "width" : 467,
+  "height" : 15
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 12,
+  "y" : 220,
+  "width" : 151,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 12,
+  "y" : 245,
+  "width" : 151,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 163,
+  "y" : 220,
+  "width" : 231,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 163,
+  "y" : 245,
+  "width" : 231,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 406,
+  "y" : 245,
+  "width" : 163,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 406,
+  "y" : 220,
+  "width" : 163,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 406,
+  "y" : 270,
+  "width" : 163,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 406,
+  "y" : 295,
+  "width" : 163,
+  "height" : 25
+}, {
+  "name" : "JButton",
+  "class" : "javax.swing.JButton",
+  "x" : 406,
+  "y" : 320,
+  "width" : 163,
+  "height" : 25
+} ]

@@ -264,6 +264,7 @@ public class PnlSwingExplorer extends javax.swing.JPanel {
     private ActDisplayComponent actDisplayComponent;
     private ActDumpAdditionTrace actTraceComponentAddition;
     private ActTreeSelectionChanged actTreeSelectionChanged;
+    private ActExportToDataset actExportToDataset;
     private ActZoomIn actZoomIn;
     private ActZoomOut actZoomOut;
     private ActMoveOverDisplay actMoveOverDisplay;
@@ -285,6 +286,9 @@ public class PnlSwingExplorer extends javax.swing.JPanel {
         
         actTreeSelectionChanged = new ActTreeSelectionChanged(application.model, pnlComponentTree);
         pnlComponentTree.setTreeSelectionAction(actTreeSelectionChanged);
+        
+        actExportToDataset = new ActExportToDataset(pnlComponentTree);
+        pnlComponentTree.addAction(actExportToDataset);
         
         pnlGuiDisplay.setModel(application.model);
         pnlComponentTree.setModel(application.model);
