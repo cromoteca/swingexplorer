@@ -43,12 +43,15 @@ public class ActExportToDataset extends RichAction {
                 throw new DisplayableException("There is no component selected");
             }
 
-            takeScreenshot(new File("test.png"), selected);
+            File dir = new File("vaadin-dataset");
+            dir.mkdir();
+            long timestamp = System.currentTimeMillis();
 
-            File file = new File("test.json");
+            takeScreenshot(new File(dir, timestamp + ".png"), selected);
+
             ArrayNode json = objectMapper.createArrayNode();
             logComponents(json, selected, null, null);
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(file, json);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(dir, timestamp + ".json"), json);
         } catch (DisplayableException | IOException ex) {
             JOptionPane.showMessageDialog(pnlComponentTree, ex.getMessage());
         }
