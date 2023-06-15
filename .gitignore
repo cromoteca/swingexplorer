@@ -10,4 +10,6 @@
 **/.classpath
 /dist/
 
+nbactions.xml
+
 vaadin-dataset/
