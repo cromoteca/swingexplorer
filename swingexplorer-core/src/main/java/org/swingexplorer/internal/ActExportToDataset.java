@@ -81,7 +81,7 @@ public class ActExportToDataset extends RichAction {
                 .findFirst()
                 .ifPresent(c -> jsonItem.put("class", c.getName()));
 
-        if (root != null && component.isVisible()) {
+        if (root != null && component.isShowing()) {
             Point outerLocation = root.getLocationOnScreen();
             Point innerLocation = component.getLocationOnScreen();
             Rectangle innerBounds = component.getBounds();
